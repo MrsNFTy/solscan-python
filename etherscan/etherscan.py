@@ -9,7 +9,7 @@ from etherscan.enums.fields_enum import FieldsEnum as fields
 from etherscan.utils.parsing import ResponseParser as parser
 
 
-class Etherscan:
+class Solscan:
     def __new__(cls, api_key: str, net: str = "MAIN"):
         with resources.path(configs, f"{net.upper()}-stable.json") as path:
             config_path = str(path)
