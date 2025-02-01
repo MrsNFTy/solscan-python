@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_hist_price",
+  "method": "get_sol_hist_price",
   "module": "pro",
   "kwargs": {
     "start_date": "2019-02-01",
