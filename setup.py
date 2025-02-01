@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name="etherscan-python",
+    name="solscan-python",
     version="2.1.0",
-    description="A minimal, yet complete, python API for etherscan.io.",
-    url="https://github.com/pcko1/etherscan-python",
+    description="A minimal, yet complete, python API for solscan.io.",
+    url="https://github.com/MrsNFTy/solscan-python",
     author="Panagiotis-Christos Kotsias",
     author_email="kotsias.pan@gmail.com",
     license="MIT",
     packages=[
-        "etherscan",
+        "solscan",
         "etherscan.configs",
         "etherscan.enums",
         "etherscan.modules",
