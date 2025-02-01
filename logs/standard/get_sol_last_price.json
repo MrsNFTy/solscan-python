@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_last_price",
+  "method": "get_sol_last_price",
   "module": "stats",
   "kwargs": {},
   "log_timestamp": "2020-10-28-12:35:11",
