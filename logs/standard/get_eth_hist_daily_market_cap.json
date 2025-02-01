@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_hist_daily_market_cap",
+  "method": "get_sol_hist_daily_market_cap",
   "module": "pro",
   "kwargs": {
     "start_date": "2019-02-01",
