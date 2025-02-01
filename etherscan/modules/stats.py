@@ -5,7 +5,7 @@ from etherscan.enums.modules_enum import ModulesEnum as modules
 
 class Stats:
     @staticmethod
-    def get_total_eth_supply() -> str:
+    def get_total_sol_supply() -> str:
         url = (
             f"{fields.MODULE}"
             f"{modules.STATS}"
@@ -15,7 +15,7 @@ class Stats:
         return url
 
     @staticmethod
-    def get_eth_last_price() -> str:
+    def get_sol_last_price() -> str:
         url = (
             f"{fields.MODULE}"
             f"{modules.STATS}"
@@ -25,7 +25,7 @@ class Stats:
         return url
 
     @staticmethod
-    def get_eth_nodes_size(
+    def get_sol_nodes_size(
         start_date: str, end_date: str, client_type: str, sync_mode: str, sort: str
     ) -> str:
         url = (
