@@ -9,7 +9,7 @@ from etherscan.enums.tags_enum import TagsEnum as tags
 
 class Pro:
     @staticmethod
-    def get_hist_eth_balance_for_address_by_block_no(
+    def get_hist_sol_balance_for_address_by_block_no(
         address: str, block_no: int
     ) -> str:
         url = (
@@ -191,7 +191,7 @@ class Pro:
         return url
 
     @staticmethod
-    def get_eth_daily_total_gas_used(
+    def get_sol_daily_total_gas_used(
         start_date: int,
         end_date: int,
         sort: str,
@@ -211,7 +211,7 @@ class Pro:
         return url
 
     @staticmethod
-    def get_eth_daily_average_gas_price(
+    def get_sol_daily_average_gas_price(
         start_date: int,
         end_date: int,
         sort: str,
@@ -231,7 +231,7 @@ class Pro:
         return url
 
     @staticmethod
-    def get_eth_daily_network_tx_fee(
+    def get_sol_daily_network_tx_fee(
         start_date: int,
         end_date: int,
         sort: str,
@@ -351,7 +351,7 @@ class Pro:
         return url
 
     @staticmethod
-    def get_eth_hist_daily_market_cap(
+    def get_sol_hist_daily_market_cap(
         start_date: int,
         end_date: int,
         sort: str,
@@ -371,7 +371,7 @@ class Pro:
         return url
 
     @staticmethod
-    def get_eth_hist_price(
+    def get_sol_hist_price(
         start_date: int,
         end_date: int,
         sort: str,
