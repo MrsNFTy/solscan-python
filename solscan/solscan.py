@@ -10,7 +10,7 @@ from solscan.utils.parsing import ResponseParser as parser
 
 
 class Solscan:
-    def __new__(cls, api_key: str, net: str = "MAIN"):
+    def __new__(cls, api_key: str, net: str = "MAINNET"):
         with resources.path(configs, f"{net.upper()}-stable.json") as path:
             config_path = str(path)
         return cls.from_config(api_key=api_key, config_path=config_path, net=net)
