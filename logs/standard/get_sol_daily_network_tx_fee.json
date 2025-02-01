@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_daily_network_tx_fee",
+  "method": "get_sol_daily_network_tx_fee",
   "module": "pro",
   "kwargs": {
     "start_date": "2019-02-01",
