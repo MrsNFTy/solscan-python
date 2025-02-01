@@ -39,6 +39,6 @@ class Solscan:
         config = cls.__load_config(config_path)
         for func, v in config.items():
             if not func.startswith("_"):  # disabled if _
-                attr = getattr(getattr(etherscan, v["module"]), func)
+                attr = getattr(getattr(solscan, v["module"]), func)
                 setattr(cls, func, cls.__run(attr, api_key, net))
         return cls
