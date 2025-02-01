@@ -3,10 +3,10 @@ from importlib import resources
 
 import requests
 
-import etherscan
-from etherscan import configs
-from etherscan.enums.fields_enum import FieldsEnum as fields
-from etherscan.utils.parsing import ResponseParser as parser
+import solscan
+from solscan import configs
+from solscan.enums.fields_enum import FieldsEnum as fields
+from solscan.utils.parsing import ResponseParser as parser
 
 
 class Solscan:
