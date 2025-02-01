@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_nodes_size",
+  "method": "get_sol_nodes_size",
   "module": "stats",
   "kwargs": {
     "start_date": "2019-02-01",
