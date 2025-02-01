@@ -1,5 +1,5 @@
 {
-  "method": "get_total_eth_supply",
+  "method": "get_total_sol_supply",
   "module": "stats",
   "kwargs": {},
   "log_timestamp": "2020-10-28-12:35:10",
