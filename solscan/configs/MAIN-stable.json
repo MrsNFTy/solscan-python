@@ -110,15 +110,15 @@
       "closest": "before"
     }
   },
-  "get_total_eth_supply": {
+  "get_total_sol_supply": {
     "module": "stats",
     "kwargs": {}
   },
-  "get_eth_last_price": {
+  "get_sol_last_price": {
     "module": "stats",
     "kwargs": {}
   },
-  "get_eth_nodes_size": {
+  "get_sol_nodes_size": {
     "module": "stats",
     "kwargs": {
       "start_date": "2019-02-01",
@@ -171,7 +171,7 @@
       "address": "0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a"
     }
   },
-  "get_eth_balance_multiple": {
+  "get_sol_balance_multiple": {
     "module": "accounts",
     "kwargs": {
       "addresses": [
@@ -307,7 +307,7 @@
       "offset": 100
     }
   },
-  "get_hist_eth_balance_for_address_by_block_no": {
+  "get_hist_sol_balance_for_address_by_block_no": {
     "module": "pro",
     "kwargs": {
       "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
@@ -383,7 +383,7 @@
       "sort": "asc"
     }
   },
-  "get_eth_daily_total_gas_used": {
+  "get_sol_daily_total_gas_used": {
     "module": "pro",
     "kwargs": {
       "start_date": "2019-02-01",
@@ -391,7 +391,7 @@
       "sort": "asc"
     }
   },
-  "get_eth_daily_average_gas_price": {
+  "get_sol_daily_average_gas_price": {
     "module": "pro",
     "kwargs": {
       "start_date": "2019-02-01",
@@ -447,7 +447,7 @@
       "sort": "asc"
     }
   },
-  "get_eth_hist_daily_market_cap": {
+  "get_sol_hist_daily_market_cap": {
     "module": "pro",
     "kwargs": {
       "start_date": "2019-02-01",
@@ -455,7 +455,7 @@
       "sort": "asc"
     }
   },
-  "get_eth_hist_price": {
+  "get_sol_hist_price": {
     "module": "pro",
     "kwargs": {
       "start_date": "2019-02-01",
