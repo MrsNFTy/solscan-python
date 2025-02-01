@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_balance_multiple",
+  "method": "get_sol_balance_multiple",
   "module": "accounts",
   "kwargs": {
     "addresses": [
