@@ -1,5 +1,5 @@
 {
-  "method": "get_eth_daily_avg_gas_price",
+  "method": "get_sol_daily_avg_gas_price",
   "module": "pro",
   "kwargs": {
     "start_date": "2019-02-01",
